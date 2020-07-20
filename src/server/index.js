@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 var path = require('path')
 const express = require('express')
 
@@ -13,8 +16,8 @@ console.log(__dirname)
 var aylien = require("aylien_textapi");
 // You could call it aylienapi, or anything else
 var textapi = new aylien({
-    application_id: "your-api-id",
-    application_key: "your-key"
+    application_id: process.env.API_ID,
+    application_key: process.env.API_KEY
   });
 
 app.get('/', function (req, res) {
