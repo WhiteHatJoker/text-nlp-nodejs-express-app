@@ -33,7 +33,3 @@ app.get('/appkey', function (req, res) {
     // send an app key back
     res.send({ applicationKey:process.env.API_KEY })
 })
-
-app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
-})
