@@ -6,14 +6,13 @@ import './styles/footer.scss'
 
 
 import { checkForName } from './js/nameChecker'
+import { getAppKey } from './js/getKey'
+import { postMeaningCloudApi } from './js/postApi'
 import { handleSubmit } from './js/formHandler'
-
-console.log(checkForName);
-
-alert("I EXIST")
-console.log("CHANGE!!");
 
 export {
     checkForName,
+    getAppKey,
+    postMeaningCloudApi,
     handleSubmit
 }
