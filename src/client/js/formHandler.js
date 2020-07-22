@@ -9,7 +9,7 @@ function handleSubmit(event) {
     
     Client.getAppKey().then(function(data) {
         Client.postMeaningCloudApi(baseURL, data.applicationKey, params, formText).then(function(data) {
-            console.log(data);
+            document.getElementById('results').innerHTML = Client.getDataTable(data);
         })
     })
 
