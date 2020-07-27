@@ -1,7 +1,13 @@
+@import 'variables.scss';
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
-    background-color: #ff7d00;
-    color: white;
+    background-color: $primary-color;
+    color: $primary-color-text;
+}
+
+#mainLogo {
+    width: 150px;
 }

@@ -8,7 +8,7 @@
     <body>
 
         <header>
-            <div class="">
+            <div>
                 <img id="mainLogo" alt="AnText Logo" />
             </div>
             <div class="" style=""></div>
@@ -17,12 +17,18 @@
         </header>
 
         <main>
-            <section>
-                <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" placeholder="Text to Analyze">
-                    <input type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
-                </form>
-            <section>
+            <figure id="banner">
+                <div id="overlay">
+                    <section>
+                        <h1>Online Text Sentiment Analysis Tool</h1>
+                        <h2>Just enter the desired text into the field below</h2>
+                        <form class="" onsubmit="return Client.handleSubmit(event)">
+                            <input id="name" type="text" name="input" value="" placeholder="Text to Analyze">
+                            <input id="submit" type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                        </form>
+                    <section>
+                </div>
+            </figure>
 
             <section>
                 <strong>Form Results:</strong>
