@@ -9,6 +9,9 @@ import { postMeaningCloudApi } from './js/postApi'
 import { getDataTable } from './js/buildTable'
 import { handleSubmit } from './js/formHandler'
 
+import mainLogo from './img/logo.png'
+
+document.getElementById('mainLogo').src = mainLogo
 
 export {
     getAppKey,
