@@ -32,6 +32,10 @@ module.exports = {
                         name: 'images/[hash]-[name].ext'
                     }
                 }]
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: ['file-loader']
             }
         ]
     },

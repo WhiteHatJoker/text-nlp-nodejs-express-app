@@ -10,8 +10,10 @@ import { getDataTable } from './js/buildTable'
 import { handleSubmit } from './js/formHandler'
 
 import mainLogo from './img/logo.png'
+import socialLogos from './img/socials.png'
 
 document.getElementById('mainLogo').src = mainLogo
+document.getElementById('headerSocials').src = socialLogos
 
 export {
     getAppKey,
