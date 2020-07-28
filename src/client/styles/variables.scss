@@ -1,3 +1,11 @@
 $primary-color: #f08c00;
 $primary-color-text: white;
 $footer-color: #23272c;
+
+
+@font-face {
+    font-family: 'MyVignette';
+    src:  url('../fonts/Vignette.otf') format('otf'), url('../fonts/Vignette.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
