@@ -17,8 +17,6 @@ function handleSubmit(event) {
         window.alert('Please enter the text into the textfield');
     }
 
-
-
 }
 
 export { handleSubmit }
