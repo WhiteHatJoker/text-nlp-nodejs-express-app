@@ -1,0 +1,17 @@
+#resultsTable {
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid black;
+    max-width: 500px;
+    margin:0 auto;
+    padding-top: 15px;
+
+    th, td {
+        padding: 15px;
+        border-bottom: 1px solid black;
+    }
+
+    th {
+        font-weight: bold;
+    }
+}
