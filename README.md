@@ -8,6 +8,7 @@ cached version of the page should the server / internet not be available.
 ## Instructions
 
 * Upon opening the project run 'npm i' in the console to install all required dependencies.
+* Sign up for the MeaningCloud API on their website and replace the app key in current .env file as following: API_KEY=etg4t4egdgfgfgererer
 * To open up the dev environment run 'npm run build-dev'.
 * To open the production environment, first build the files using 'npm build-prod' and it will produce a dist folder. Then run 'npm start' and open 'localhost:8081' in browser.
 * To run Jest tests, run 'npm test'. Note that one of the test depends on the apps api so you need to make sure 'npm start' was run before the test command.
