@@ -1,7 +1,7 @@
 import { postMeaningCloudApi } from '../src/client/js/postApi'
 const baseURL = 'https://api.meaningcloud.com/sentiment-2.1?key=';
 const params = '&lang=en&of=json&txt=';
-const appkey = 'eb1bd3ab2713b429c1577fcab18b56c6'
+const appkey = 'fake app key'
 const text = 'hello'
 
 
